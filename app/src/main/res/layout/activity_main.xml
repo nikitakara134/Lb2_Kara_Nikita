@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- ImageView для отображения селфи -->
+    <ImageView
+        android:id="@+id/imageViewPhoto"
+        android:layout_width="250dp"
+        android:layout_height="350dp"
+        android:background="#CCC"
+        android:scaleType="centerCrop"
+        android:contentDescription="Фото селфи"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Кнопка для запуска камеры -->
+    <Button
+        android:id="@+id/btnTakePhoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Зробити селфі"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Кнопка для отправки селфи через email -->
+    <Button
+        android:id="@+id/btnSendEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Відіслати селфі" />
+</LinearLayout>
